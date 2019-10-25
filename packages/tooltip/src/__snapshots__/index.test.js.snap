@@ -1,6 +1,18 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Tooltip hides on ESC 1`] = `
+exports[`Tooltip hides on ESC: after escape 1`] = `
+<body>
+  <div>
+    <button
+      data-reach-tooltip-trigger=""
+    >
+      Trigger
+    </button>
+  </div>
+</body>
+`;
+
+exports[`Tooltip hides on ESC: after focus 1`] = `
 <body>
   <div>
     <button
@@ -23,19 +35,7 @@ exports[`Tooltip hides on ESC 1`] = `
 </body>
 `;
 
-exports[`Tooltip hides on ESC 2`] = `
-<body>
-  <div>
-    <button
-      data-reach-tooltip-trigger=""
-    >
-      Trigger
-    </button>
-  </div>
-</body>
-`;
-
-exports[`Tooltip shows without timeout when one tooltip is already visible 1`] = `
+exports[`Tooltip shows without timeout when one tooltip is already visible: after first mouseover 1`] = `
 <body>
   <div>
     <button
@@ -63,7 +63,7 @@ exports[`Tooltip shows without timeout when one tooltip is already visible 1`] =
 </body>
 `;
 
-exports[`Tooltip shows without timeout when one tooltip is already visible 2`] = `
+exports[`Tooltip shows without timeout when one tooltip is already visible: after second mouseover 1`] = `
 <body>
   <div>
     <button
@@ -91,19 +91,7 @@ exports[`Tooltip shows without timeout when one tooltip is already visible 2`] =
 </body>
 `;
 
-exports[`Tooltip shows/hides on hover 1`] = `
-<body>
-  <div>
-    <button
-      data-reach-tooltip-trigger=""
-    >
-      Trigger
-    </button>
-  </div>
-</body>
-`;
-
-exports[`Tooltip shows/hides on hover 2`] = `
+exports[`Tooltip shows/hides on hover: after mouse enter 1`] = `
 <body>
   <div>
     <button
@@ -126,7 +114,7 @@ exports[`Tooltip shows/hides on hover 2`] = `
 </body>
 `;
 
-exports[`Tooltip shows/hides on hover 3`] = `
+exports[`Tooltip shows/hides on hover: after mouse leave 1`] = `
 <body>
   <div>
     <button
@@ -138,7 +126,7 @@ exports[`Tooltip shows/hides on hover 3`] = `
 </body>
 `;
 
-exports[`Tooltip shows/hides when trigger is activeElement 1`] = `
+exports[`Tooltip shows/hides on hover: closed tooltip 1`] = `
 <body>
   <div>
     <button
@@ -150,7 +138,19 @@ exports[`Tooltip shows/hides when trigger is activeElement 1`] = `
 </body>
 `;
 
-exports[`Tooltip shows/hides when trigger is activeElement 2`] = `
+exports[`Tooltip shows/hides when trigger is activeElement: after blur 1`] = `
+<body>
+  <div>
+    <button
+      data-reach-tooltip-trigger=""
+    >
+      Trigger
+    </button>
+  </div>
+</body>
+`;
+
+exports[`Tooltip shows/hides when trigger is activeElement: after focus 1`] = `
 <body>
   <div>
     <button
@@ -173,7 +173,7 @@ exports[`Tooltip shows/hides when trigger is activeElement 2`] = `
 </body>
 `;
 
-exports[`Tooltip shows/hides when trigger is activeElement 3`] = `
+exports[`Tooltip shows/hides when trigger is activeElement: before focus 1`] = `
 <body>
   <div>
     <button
